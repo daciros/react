@@ -2,7 +2,8 @@ import logo from './assets/img/logo.svg';
 import './assets/css/App.css';
 
 //importar componentes
-import Login from './components/login/Login.js';
+import Login from './components/login/Login';
+import Register from './components/login/Register';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         <div className="components">
       <Login/>
     </div>
+    <section className="components">
+      <Register/>
+    </section>
       </header>
     </div>
   );
